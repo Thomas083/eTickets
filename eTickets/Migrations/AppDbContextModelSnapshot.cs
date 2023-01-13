@@ -38,7 +38,7 @@ namespace eTickets.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProfilePictureUrl")
+                    b.Property<string>("ProfilePictureURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -150,7 +150,7 @@ namespace eTickets.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProfilePictureUrl")
+                    b.Property<string>("ProfilePictureURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
