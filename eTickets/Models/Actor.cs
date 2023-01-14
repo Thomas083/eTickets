@@ -13,7 +13,7 @@ namespace eTickets.Models
         [Display(Name = "Full Name")]
         public string FullName { get; set; }
 
-        [Display(Name = "Biographie")]
+        [Display(Name = "Biography")]
         public string Bio { get; set; }
 
         //Relationship
